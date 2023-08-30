@@ -19,3 +19,8 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+java_fps/.idea/workspace.xml
+*.xml
+java_fps/.idea/workspace.xml
+java/.idea/misc.xml
+java/.idea/misc.xml
