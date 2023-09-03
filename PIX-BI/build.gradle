@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useTestNG()
+}
+
+dependencies {
+    implementation group: 'org.testng', name: 'testng', version: '7.8.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.12.0'
+}
