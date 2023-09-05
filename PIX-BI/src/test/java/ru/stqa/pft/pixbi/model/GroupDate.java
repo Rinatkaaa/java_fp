@@ -1,4 +1,4 @@
-package ru.stqa.pft.pixbi;
+package ru.stqa.pft.pixbi.model;
 
 public class GroupDate {
     private final String name;
