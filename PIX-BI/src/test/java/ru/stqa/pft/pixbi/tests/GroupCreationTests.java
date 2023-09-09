@@ -6,11 +6,11 @@ import ru.stqa.pft.pixbi.model.GroupDate;
 public class GroupCreationTests extends TestBase {
     @Test
     public void testGroupCreation() throws Exception {
-        app.gotoGroupPage();
-        app.initGroupCreation();
-        app.fillGroupForm(new GroupDate("name", "header", "footer"));
-        app.submitGroupCreation();
-        app.logoutPage();
+        app.getNavigationHelper().gotoGroupPage();
+        app.getGroupHelper().initGroupCreation();
+        app.getGroupHelper().fillGroupForm(new GroupDate("name", "header", "footer"));
+        app.getGroupHelper().submitGroupCreation();
+        app.getGroupHelper().logoutPage();
     }
 
 
